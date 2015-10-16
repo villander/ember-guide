@@ -35,7 +35,11 @@ Testes unitários são usados para testar pedacos de funcionalidades, ou " unida
 
 Rode seus testes com o comando `ember test` na linha de comando.Você pode reexecutar os testes em cada arquivo de mudança com `ember test --server`. Para mais detalhes e opções, veja [Ember CLI – Testing](http://www.ember-cli.com/user-guide/#testing) ande `ember helper test`.
 
->>[Testes de Aceitação]()
+
+
+## Testes de Aceitação
+
+Testes de aceitação são geralmente usados para testar importantes fluxos de trabalho dentro de sua aplicação. Eles simulam a interação do usuário e confirma resultados esperados.
 
 
 
