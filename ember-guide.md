@@ -23,7 +23,7 @@ Além do simples HTML, templates podem conter:
 
 #### Router
 
-O `router` traduz a URL para uma série de templates aninhados, cada um apoiado por um `model`. A medida que os templates e models estão sendo mostrado para a mudança do usuário, A Ember mantém automaticamente a URL na barra de endereços do navegador `up-to-date`.
+O **outer** traduz a URL para uma série de templates aninhados, cada um apoiado por um `model`. A medida que os templates e models estão sendo mostrado para a mudança do usuário, A Ember mantém automaticamente a URL na barra de endereços do navegador `up-to-date`.
 
 Isto significa que, em qualquer ponto, os usuários são capazes de compartilhar a URL do seu aplicativo. Quando alguém clica no link, eles veêm de maneira confiável o mesmo conteúdo que o usuário original.
 
@@ -44,5 +44,16 @@ A **rota** é o objeto que diz ao template que `model`ele deve exibir.
 Estes são os conceitos fundamentais que você precisa entender para desenvolver sua Ember.js app. Ela é projetada para escalar em termos de complexidade. De modo que a adição de novas funcionalidades não vai te forçar a voltar atrás e refazer as principais partes da sua app.
 
 Agora que você entende o papel desses objetos, você está equipado para mergulhar profundamente em Ember.js e aprender os detalhes de como cada uma dessas peças individuais trabalham.
+
+
+## Convenções de Nomenclatura
+
+Ember usa um `resolver`em tempo de execução para conectar seus objetos sem muito clichê. Como um desenvolvedor, este `resolver`irá trabalhar automaticamente se você colocar seu código em locais convencionais dentro de sua aplicação.
+
+Você pode geralmente advinhar nomes e locais. Mas este guia descreve, em um só lugar, todas as convenções de nomenclatura.
+
+#### A aplicação
+
+Quando você inicia sua aplicação, Ember.js irá renderizar o template `application` como o template principal. Se o `controller:application`é fornecido, Ember.js irá definir a instância de `controller:application` como o controller para o template. Isto significa que o template irá buscar as propriedades a partir do controller.
 
 
