@@ -39,6 +39,8 @@ O **model** é o objeto que armazena o  *persistent state*. Templates são respo
 
 A **rota** é o objeto que diz ao template que `model`ele deve exibir.
 
+---------------------------
+
 Estes são os conceitos fundamentais que você precisa entender para desenvolver sua Ember.js app. Ela é projetada para escalar em termos de complexidade. De modo que a adição de novas funcionalidades não vai te forçar a voltar atrás e refazer as principais partes da sua app.
 
 Agora que você entende o papel desses objetos, você está equipado para mergulhar profundamente em Ember.js e aprender os detalhes de como cada uma dessas peças individuais trabalham.
